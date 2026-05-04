@@ -11,10 +11,10 @@ st.title("🐾 Dashboard Veterinario - Análisis de Desempeño")
 st.markdown("Análisis comparativo del impacto de la expansión del equipo veterinario (Noviembre 2025).")
 
 # Paths
-path_solicitudes = r"g:\Mi unidad\09.Proyectos_Data\01.AnalisisdatosVet\00. SOLICITUD Y DENUNCIA 2026.csv"
-path_atenciones = r"g:\Mi unidad\09.Proyectos_Data\01.AnalisisdatosVet\ATENCIONESREALIZADAS.csv"
-path_lista_espera = r"g:\Mi unidad\09.Proyectos_Data\01.AnalisisdatosVet\LISTADEESPERA.csv"
-path_operativos = r"g:\Mi unidad\09.Proyectos_Data\01.AnalisisdatosVet\OPERATIVOS vet móvil.csv"
+path_solicitudes = "00. SOLICITUD Y DENUNCIA 2026.csv"
+path_atenciones = "ATENCIONESREALIZADAS.csv"
+path_lista_espera = "LISTADEESPERA.csv"
+path_operativos = "OPERATIVOS vet móvil.csv"
 
 @st.cache_data
 def load_data():
